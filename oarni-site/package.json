@@ -1,0 +1,24 @@
+{
+  "name": "oarni-site",
+  "version": "1.0.0",
+  "description": "Oarni Studio - Always-On Brand Photography in Minutes",
+  "private": true,
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "preview": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "oarni",
+    "photography",
+    "studio"
+  ],
+  "license": "UNLICENSED",
+  "analytics": {
+    "vercel": {
+      "enabled": true,
+      "type": "cdn-script",
+      "script": "https://cdn.vercel-insights.com/v1/script.js",
+      "note": "Vercel Web Analytics is integrated via CDN script tag in index.html"
+    }
+  }
+}
