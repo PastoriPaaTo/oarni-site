@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-accent: #FF5C00;
+  --bg: #F5F4F0;
+  --text-primary: #0D0D0D;
+  --text-secondary: #6B6B6B;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--bg);
+  font-family: var(--font-inter), sans-serif;
+}
+
+@layer utilities {
+  .font-syne {
+    font-family: var(--font-syne), sans-serif;
+  }
+}
